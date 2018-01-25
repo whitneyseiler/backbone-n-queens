@@ -178,13 +178,7 @@
       var count = 0;
       var size = this.get('n');
       var start = minorDiagonalColumnIndexAtFirstRow;
-      console.log(start)
       
-      //for each row in the board * 2
-        //search each row[i
-
-      // if start value > size
-        //deincrement start and increment row
       // debugger;
       for (var i = 0; i < size; i++) {
         if (board[i][start] === 1) {
