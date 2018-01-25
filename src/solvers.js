@@ -34,6 +34,8 @@ window.findNRooksSolution = function(n) {
         if (board.hasAnyRooksConflicts() === true) {
           board.togglePiece(r, c);
           // pieces -= 1;
+        } else {
+          break;
         }
       }
     } 
